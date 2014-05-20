@@ -3,8 +3,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #34343f;
-  background: #e5e9ec;
+  color: #86837d;
+  background: #f2eee8;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -15,7 +15,7 @@ h1 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 39.0625px;
   line-height: 58.59375px;   
-  color: #34343f;
+  color: #fefeff;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -24,7 +24,7 @@ h2 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 31.25px;
   line-height: 40.875px;
-  color: #34343f;
+  color: #605e58;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -33,7 +33,7 @@ h3 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 25px;
   line-height: 37.5px;
-  color: #62707d;
+  color: #6c94b8;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -42,7 +42,7 @@ h4 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
   line-height: 30px;
-  color: #62707d;
+  color: #80a8cc;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -73,6 +73,15 @@ hr.headerRule {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.btn {
+  color: #f3f6fa;
+  background: #80a8cc;
+  padding: 10px 30px;
+  margin: 40px 0px 0px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 /* DIV alignment */
 
@@ -91,7 +100,7 @@ hr.headerRule {
 /* Elements */
 
 .icon {
- color: #a0a9b1;
+ color: #f3f6fa;
  padding: 10px;
  margin-top: 20px;
  margin-right: 20px;
@@ -102,7 +111,7 @@ hr.headerRule {
    border-radius: 50%;
    margin-top: 20px;
    margin-bottom: 20px;   
-   border: 6px solid #a0a9b1;
+   border: 6px solid #6c94b8;
 }
 
 .projectImages {
@@ -126,7 +135,7 @@ hr.headerRule {
 }
 
 .introText {
-  color: #62707d;
+  color: #f3f6fa;
   font-weight: 300;
   font-size: 25px;
   line-height: 40.875px;
@@ -159,9 +168,9 @@ hr.headerRule {
 .bigBand {
   width: 100%;  
   margin: 0; 
-  color: #808080;
+  color: #fbfcfd;
   padding: 20px 0;
-  background: #edeef0;
+  background: #80a8cc;
   border-bottom: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
 }

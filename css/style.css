@@ -7,7 +7,6 @@ body {
   background: #f2eee8;
   font-weight: 300;
   font-size: 16px;
-  line-height: 24px;
 }
 
 
@@ -51,126 +50,34 @@ p {
   margin-top: 0px;
   margin-bottom: 20px;
   font-size: 18px; 
-  line-height: 25.2px;
 }
 
-ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-li {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  font-size: 18px; 
-  line-height: 25.2px;
-}
-
-hr.headerRule {
+hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.btn {
-  color: #f3f6fa;
-  background: #80a8cc;
-  padding: 10px 30px;
-  margin: 40px 0px 0px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-/* DIV alignment */
 
 .zeroAuto {
   text-align: center;
   margin-right: 0px;
 }
 
+/* Bootstrap Overrride Styles */
 
-.vert {
-  margin-top: 0px
-  padding-top: 0px;
-  vertical-align: top;
+.navbar {
+  margin-bottom: 0px;
 }
 
-/* Elements */
-
-.icon {
- color: #f3f6fa;
- padding: 10px;
- margin-top: 20px;
- margin-right: 20px;
-}
-
-
-.img-circle {
-   border-radius: 50%;
-   margin-top: 20px;
-   margin-bottom: 20px;   
-   border: 6px solid #6c94b8;
-}
-
-.projectImages {
-  border-radius: 6px;
-  margin: 0 0 10px 0;
-}
-
-.socilLinks {
-  text-align: right;
-  margin-top: 10px;
-}
-
-/* Text */
-
-.thin {
-  font-weight: 300;
-}
-
-.thick {
-  font-weight: 700;
-}
-
-.introText {
-  color: #f3f6fa;
-  font-weight: 300;
-  font-size: 25px;
-  line-height: 40.875px;
-  margin-top: 0px;
-  vertical-align: top;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-}
-
-.noMarginTop {
-  margin-top: 0px;
-}
-
-
-.noMargin {
-  margin: 0,0,0,0px;
-  padding: 0,0,0,0px;
-}
-
-
-.bottomMargin p{
-  margin-bottom: 20px;
-}
-
-
-/* Sections */
-
-.bigBand {
-  width: 100%;  
-  margin: 0; 
+.jumbotron {
   color: #fbfcfd;
-  padding: 20px 0;
   background: #80a8cc;
-  border-bottom: 1px solid #e2e2e2;
-  border-top: 1px solid #e2e2e2;
 }
+
+.avatarImage {
+  margin-bottom: 20px;   
+  border: 6px solid #6c94b8;
+}
+

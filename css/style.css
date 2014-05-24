@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300,200);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -10,46 +11,18 @@ body {
 }
 
 
-h1 {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 39.0625px;
-  line-height: 58.59375px;   
-  color: #fefeff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 31.25px;
-  line-height: 40.875px;
-  color: #605e58;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 25px;
-  line-height: 37.5px;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
   color: #6c94b8;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
-h4 {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  color: #80a8cc;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 
 p {
+  font-family: 'Open Sans', sans-serif;
   margin-top: 0px;
   margin-bottom: 20px;
-  font-size: 18px; 
 }
 
 hr {
@@ -81,3 +54,13 @@ hr {
   border: 6px solid #6c94b8;
 }
 
+.project-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.timelineContainer {
+  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}

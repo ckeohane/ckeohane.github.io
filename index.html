@@ -20,36 +20,26 @@
   </head>
   <body>
 
-    <div class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Christopher KEOHANE</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="mailto:chris.s.keohane@gmail.com">EMAIL</a></li>
-              <li><a href="www.linkedin.com/pub/christopher-keohane/1/847/a58/"> LINKEDIN </a></li> 
-              <li><a href="www.google.com">RESUME</a></li> 
-            </ul> 
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
-
+<div id="wrap">
     <!-- Jumbotron for into text -->
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 zeroAuto">
+          <div class="col-sm-12 zeroAuto"> 
+            <h2><span class="firstName">Christopher</span> <span class="lastName">Keohane</span></h2> 
             <img src="img/pngCSK2.png" alt="CSK Face" class="img-circle avatarImage" width="180" height="180">
+           </div>
+           <div class="col-sm-12 zeroAuto" id="navcontainer"> 
+            <ul class="navcontainer">
+              <li><a href="mailto:chris.s.keohane@gmail.com">Email</a></li>
+              <li><a href="www.linkedin.com/pub/christopher-keohane/1/847/a58/">Linkedin</a></li>  
+              <li><a href="www.google.com">Resume</a></li>
+            </ul>  
           </div>
-          <div class="col-sm-8">
-              <p class="lead">Over the past 10-years I have held leadership positions on a variety of agile development teams focused on delivering enterprise level solutions in the areas of employee portals, enterprise social media, mobile application management, and document management. With a primary focus on end user experience, I have broad range of skills in the areas of, product management, information architecture, business process analysis and graphic design.</p>
+          <div class="col-sm-12 zeroAuto">
+              <p class="lead hidden-xs">Over the past 10-years I have held leadership positions on a variety of agile development teams focused on delivering enterprise level solutions in the areas of employee portals, enterprise social media, mobile application management, and document management. With a primary focus on end user experience, I have broad range of skills in the areas of, product management, information architecture, business process analysis and graphic design.</p>
+
+              <p class="jumbotronXS visible-xs zeroAuto">Over the past 13-years I have held leadership positions on a variety of agile development teams focused on delivering enterprise level solutions in the areas of employee portals, enterprise social media, mobile application management, and document management. With a primary focus on end user experience, I have broad range of skills in the areas of, product management, information architecture, business process analysis and graphic design.</p>
           </div>
         </div>
 
@@ -60,8 +50,8 @@
 
   <div class="container">
       <div class="row">
-        <div class="col-sm-12 ">
-          <h2>RECENT PROJECT<br><small><i>Lockheed Martin IS&GS’s Mobile Application Platform</i></small></h2>
+        <div class="col-sm-12 zeroAuto">
+          <h2>Recent Project<br><small>Lockheed Martin IS&GS’s Mobile Application Platform<</small></h2>
           <hr>
         </div>
       </div>
@@ -102,8 +92,8 @@
 
   <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <h2>Recent Employment Timeline</h2>
+        <div class="col-sm-12 zeroAuto">
+          <h2>Career Timeline<br><small><i>2008-2014</i></small></h2>
           <hr>
         </div>
       </div>
@@ -114,37 +104,42 @@
         </div>
       </div>
 
-      <div class="col-xs-12 zeroAuto visible-xs hidden-md hidden-lg hidden-sm">
-          <p><small><i>swipe horizontally to view timeline</i></small></p>
-          <br>
-      </div>
 
       <div class="row">
+          <div class="col-xs-12 zeroAuto visible-xs hidden-md hidden-lg hidden-sm">
+            <p><small><i>swipe horizontally to view timeline</i></small></p>
+            <br>
+          </div>
+
+ 
           <div class="col-xs-12 visible-xs timelineContainer timelineOverflow">
-           <img class="img-rounded" src="img/timeline.png" width="719px" height="100%">
-
-        </div>
-            <div class="col-xs-12 zeroAuto">
-          <hr>
-      </div>
-
-      </div>
-
-      </div>
-
-              <footer>
-          <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-            <ul class="nav navbar-nav">
-              <li><a href="mailto:chris.s.keohane@gmail.com">EMAIL</a></li>
-              <li><a href="www.linkedin.com/pub/christopher-keohane/1/847/a58/"> LINKEDIN </a></li> 
-              <li><a href="www.google.com">RESUME</a></li> 
-            </ul> 
-            </div>
+            <img class="img-rounded" src="img/timeline.png" width="719px" height="100%">
           </div>
+
+          <div class="col-xs-12 zeroAuto">
+              <hr>
           </div>
-        </footer>
+
+
+          <div class="col-xs-12 zeroAuto">
+              <p>
+                  <button type="button" class="btn btn-primary btn-lg">View Resume</button>
+              </p>
+          </div>
+
+      </div>
+
+  </div>
+
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </div>
+
+</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

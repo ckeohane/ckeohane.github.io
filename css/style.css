@@ -37,6 +37,10 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+a {
+  color: #fafafa;
+}
+
 
 .zeroAuto {
   text-align: center;
@@ -140,7 +144,7 @@ color: #fff;
 p.jumbotronXS {
   color: #fbfcfd;
   background: #80a8cc;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .lead {
@@ -165,6 +169,12 @@ border: 0px solid #6c94b8;
 margin-left: 0px;
 margin-right: 0px;
 }
+
+.pageFooter {
+  margin-top: 20px;
+  color: #fafafa;
+}
+
 
 .timelineOverflow {
   overflow: scroll;
